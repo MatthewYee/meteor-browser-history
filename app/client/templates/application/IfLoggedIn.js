@@ -1,3 +1,4 @@
+//stuff
 Template.IfLoggedIn.helpers({
   /**
    * @returns {*} True if Meteor is in the process of logging in.
