@@ -22,6 +22,17 @@ Router.route('/add', {
   name: 'AddStuff'
 });
 
+Router.route('/InternetExplorer',{
+  name: 'InternetExplorer'
+});
+
+Router.route('/FireFox',{
+  name: 'FireFox'
+});
+
+Router.route('/Chrome',{
+  name: 'Chrome'
+});
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
